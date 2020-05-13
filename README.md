@@ -1,6 +1,6 @@
 # <center>Data Mining Term Project</center>
 Sushant Mhambrey<br>
-UTA ID:1001778625
+UTA ID:1001778625 <br>
 Game Review Predictor
 Website of the term project deployed on Heroku : [click here](https://termprojectdm.herokuapp.com/)
 
