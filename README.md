@@ -19,7 +19,7 @@ Download all the requirments in **requirement.txt**
 2. Install all dependencies mentioned and Run the code using :
 >python app.py
 
-4. localhost:5000 is where the website will be opened.
+3. localhost:5000 is where the website will be opened.
 
 ***
 Screenshot  and Demo :<br>
@@ -46,20 +46,23 @@ To set up Heroku we need the **HerokuCLI** which requires Git.
 
 For Heroku CLI use the following command
 >sudo snap install heroku --classic
+
 snap is available on Linux too. For windows or we can download the CLI directly from the site (https://devcenter.heroku.com/articles/heroku-cli
 
 After installation, you need to login to Heroku through your computer's command prompt.
+
 Use command prompt(cmd.exe) or Powershell on Windows to access the command prompt and use the Heroku login command
 >heroku login
 
 We need to create the requirement.txt file. command for that is
->pip freeze>requirement.txt
+>pip freeze > requirements.txt
 
 After we have prepared the app we need to create an app on Heroku using
 >heroku create
 
 Heroku needs to understand which app to run(here app.py). For that we need to create something called as the Procfile
 >touch procfile
+
 In the procfile type the following command
 >web:gunicorn app:app
 
