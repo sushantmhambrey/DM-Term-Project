@@ -22,14 +22,10 @@ Download all the requirments in **requirement.txt**
 3. localhost:5000 is where the website will be opened.
 
 ***
-Screenshot  and Demo :<br>
-![](Images/gif.gif)
-
-
-Good Rating
-![Positive example](Images/2.png) 
-Bad Rating
-![Negative example](Images/1.png) 
+Example of a good review getting a high rating
+![Good review](https://github.com/sushantmhambrey/DM-Term-Project/blob/master/dm1.PNG) 
+Bad Review about a game getting a low rating
+![Bad Review](https://github.com/sushantmhambrey/DM-Term-Project/blob/master/dm2.PNG) 
 
 
 
