@@ -1,0 +1,24 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <style>
+        body, html {
+    margin: 3px;
+    font-family: Verdana;
+    color:chocolate;
+}
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body style="background-image: url(https://miro.medium.com/max/2800/1*jWd_vrLAWLBbVdnkuEcYtA.png);">
+    {% block body %}{% endblock %}
+</body>
+</html>
